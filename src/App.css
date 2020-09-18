@@ -110,3 +110,16 @@ p {
   background-color: #ffffff;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
+.profilepic{
+  height: 400px;
+  width: 600px;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+  .profilepic {
+    height: 200px;
+    width: 300px;
+    left: -30%;
+  }
+}
